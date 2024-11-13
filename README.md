@@ -19,3 +19,24 @@ most important part. Add your answer to this markdown file.
 
 Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
+
+
+///
+
+In the outer loop, each row of adjmatrix is ​​traversed to represent each vertex. Since the adjacency matrix is ​​n*n, it needs to be run n times.
+
+In the inner loop, check whether there is an edge between vertices i and j, which also needs to be run n times.
+
+It is necessary to iterate n vertices and iterate n times to find the edge. The final complexity depends on the number of vertices and the edge checked.
+
+So the total time complexity is O(n^2)
+
+###
+
+source:
+
+https://en.wikipedia.org/wiki/Adjacency_list
+
+https://en.wikipedia.org/wiki/Adjacency_matrix
+
+Plagiarism Statement: “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
